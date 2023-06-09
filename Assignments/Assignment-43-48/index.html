@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            color: white;
+            background-color: black;
+            border-radius: 100vw;
+            
+
+        }
+    </style>
+</head>
+
+
+<body>
+    Assignment - 43-48
+
+    <br>
+    EVENTS
+    <br><br>
+                     <!-- 1 -->
+    <a href="#" id="myLink" onclick="hmu()">Hit me up!</a>
+
+
+                     <!-- 2 -->
+    <div id=" container">
+        <img src="iphone-13-blue-select-2021-e1657294990867.png" alt="" width="350" height="400" onclick="imageClick()">
+        <img src="iPhone-13-PNG-HD.png" alt="" width="350" height="400" onclick="imageClick()">
+        <img src="133290-11-pic-apple-iphone-free-download-png-hd.png" alt="" width="350" height="400"
+            onclick="imageClick()">
+    </div>
+
+                      <!-- 3 -->
+<table id="studentTable">
+  <thead>
+    <tr>
+      <th>Roll no.</th>
+      <th>Name</th>
+      <th>Class</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Fatima</td>
+      <td>10</td>
+      <td><button onclick="dlt(this)" >Delete</button></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Minahil</td>
+      <td>9</td>
+      <td><button onclick="dlt(this)" >Delete</button></td>
+    </tr>
+ 
+    <tr>
+      <td>3</td>
+      <td>Seher</td>
+      <td>11</td>
+      <td><button onclick="dlt(this)" >Delete</button></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Saniya</td>
+        <td>10</td>
+        <td><button onclick="dlt(this)" >Delete</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Iqra</td>
+        <td>9</td>
+        <td><button onclick="dlt(this)" >Delete</button></td>
+      </tr>
+   
+      <tr>
+        <td>6</td>
+        <td>Alishba</td>
+        <td>11</td>
+        <td><button onclick="dlt(this)" >Delete</button></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Dua</td>
+        <td>10</td>
+        <td><button onclick="dlt(this)" >Delete</button></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Maryam</td>
+        <td>9</td>
+        <td><button onclick="dlt(this)" >Delete</button></td>
+      </tr>
+   
+      <tr>
+        <td>9</td>
+        <td>Khizra</td>
+        <td>11</td>
+        <td><button onclick="dlt(this)" >Delete</button></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Zoya</td>
+        <td>11</td>
+        <td><button onclick="dlt(this)"  >Delete</button></td>
+      </tr>
+
+  </tbody>
+</table>
+
+
+                            <!-- 4 -->
+<img id="image" src="iphone-13-blue-select-2021-e1657294990867.png" width="350" height="400" onmouseover="this.src='133290-11-pic-apple-iphone-free-download-png-hd.png'" onmouseout="this.src='iphone-13-blue-select-2021-e1657294990867.png'" />
+
+
+                            <!-- 5 -->
+<h2>Counter: <span id="counter">0</span></h2>
+<button onclick="increase()" >Increase</button>
+<button onclick="decrease()" >Decrease</button>
+
+
+
+
+    <script src="./app.js">
+    </script>
+</body>
+
+</html>

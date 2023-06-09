@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button {
+            color: white;
+            background-color: black;
+            border-radius: 100vw;
+            
+
+        }
+    </style>
+</head>
+<body>
+    Assignment - 49-52
+
+    <br>
+    EVENTS
+<br><br>
+                        <!-- 1 -->
+<form onsubmit="signup(event)">
+    <div>
+        <label for="name"><b>Name</b></label><br>
+        <input type="text" placeholder="Enter name" id="name" required><br><br>
+
+        <label for="email"><b>Email</b></label><br>
+        <input type="text" placeholder="Enter Email" id="email" required><br><br>
+
+        <label for="password"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter Password" id="password" required><br><br>
+
+        <button type="submit" value="Signup">Sign Up</button>
+    </div>
+</form>
+
+
+
+
+                            <!-- 2 -->
+<div>
+    <img src="Apple-iphone-13-Pro-Gold-2-866x1024.png" alt="" width="300" height="350">
+    <h3>iPhone-13-Pro</h3>
+    <p>
+        Ceramic Shield front Textured matte glass back and stainless steel design
+    </p>
+    <button onclick="showDetails()">Read more</button>
+
+    <p id="details" style="display: none">
+        The iPhone 13 Pro display has rounded corners that follow a beautiful curved design,<br>
+         and these corners are within a standard rectangle. When measured as a standard<br>
+          rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).
+      </p>
+</div>
+<br><br>
+
+
+
+
+
+                            <!-- 3 -->
+<form>
+  <label for="stdname">Name:</label><br>
+  <input type="text" id="stdname" name="name"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="emailInput" name="email"><br><br>
+  
+  <label for="grade">Grade:</label><br>
+  <input type="text" id="grade" name="grade"><br><br>
+
+  <button type="button" onclick="addStudent()">Add Student</button>
+</form>
+
+<table id="studentsTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Grade</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+
+    <script src="./app.js">
+    </script>
+</body>
+</html>
